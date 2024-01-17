@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+	width: 100vw;
+	overflow-x: hidden;
+	min-height: calc(3000px + 100vh);
+	background: rgb(30, 30, 30);
+}
+
+.container{
+	width: 100vw;
+	height: calc(3000px + 100vh);
+}
+
+section.readingGuide{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.container section.info{
+	background-color: green;
+}
